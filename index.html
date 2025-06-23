@@ -6,46 +6,42 @@
   <title>Kısa Kollu Polo Tişört</title>
   <style>
     html, body {
-      margin: 0; padding: 0; height: 100%; width: 100%;
-      font-family: Arial, sans-serif;
+      margin: 0; padding: 0; width: 100%; height: 100%; font-family: Arial, sans-serif;
       background: #f4f4f4;
     }
     .container {
       max-width: 1200px;
-      margin: 0 auto;
-      background: white;
+      margin: 20px auto;
+      background: #fff;
       padding: 20px;
       box-sizing: border-box;
     }
-
-    /* İframe kapsayıcı - oranı belirler */
+    /* İframe oranlı kapsayıcı */
     .iframe-wrapper {
       position: relative;
       width: 100%;
-      padding-bottom: 56.25%; /* 16:9 oranı */
+      padding-bottom: 56.25%; /* 16:9 oranı için */
       height: 0;
       overflow: hidden;
-      border-radius: 8px;
       background: #eee;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
-
     .iframe-wrapper iframe {
       position: absolute;
       top: 0; left: 0;
-      width: 100%; height: 100%;
-      border: none;
+      width: 100%;
+      height: 100%;
+      border: 0;
     }
-
-    /* Sayfa içeriği */
     .content {
+      margin-top: 30px;
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
-      margin-top: 30px;
     }
     .left, .right {
-      flex: 1 1 300px;
+      flex: 1;
       min-width: 280px;
     }
     .gallery img {
@@ -73,7 +69,7 @@
       margin-right: 15px;
       padding: 10px 20px;
       border-radius: 6px;
-      color: white;
+      color: #fff;
       background: #007bff;
       display: inline-block;
     }
@@ -84,45 +80,44 @@
 </head>
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <div class="iframe-wrapper">
-      <iframe
-        src="https://sketchfab.com/models/74c33d16b31346f1a46a55c3ec8e8a78/embed"
-        allowfullscreen
-        mozallowfullscreen="true"
-        webkitallowfullscreen="true"
-        allow="autoplay; fullscreen; xr-spatial-tracking"
-        title="T-shirt Polo Lengan Pendek"
-      ></iframe>
+  <div class="iframe-wrapper">
+    <iframe
+      src="https://sketchfab.com/models/74c33d16b31346f1a46a55c3ec8e8a78/embed"
+      allowfullscreen
+      title="T-shirt Polo Lengan Pendek"
+      allow="autoplay; fullscreen; xr-spatial-tracking"
+    ></iframe>
+  </div>
+
+  <div class="content">
+    <div class="left">
+      <h2>Kısa Kollu Polo Tişört</h2>
+      <p><strong>Fiyat:</strong> ₺249,00</p>
+      <p><strong>Açıklama:</strong> Günlük kullanım için hafif ve konforlu pamuklu tişört.</p>
+      <p><strong>Bedenler:</strong> S, M, L, XL</p>
+      <p><strong>Renkler:</strong></p>
+      <div class="colors">
+        <div class="color" style="background-color:#ffffff;" title="Beyaz"></div>
+        <div class="color" style="background-color:#000000;" title="Siyah"></div>
+        <div class="color" style="background-color:#1a4d91;" title="Lacivert"></div>
+        <div class="color" style="background-color:#b4b4b4;" title="Gri"></div>
+        <div class="color" style="background-color:#be3144;" title="Kırmızı"></div>
+      </div>
+      <div class="actions">
+        <a href="mailto:satis@seninsiten.com?subject=Tişört Satın Alma Talebi&body=Merhaba, tişört ile ilgileniyorum." target="_blank">Satın Al / İletişim</a>
+        <a class="share" href="https://wa.me/?text=Harika%20bir%20tişört%20keşfettim!%20İncele:%20https://seninsiten.com/urunadi.html" target="_blank">Paylaş</a>
+      </div>
     </div>
 
-    <div class="content">
-      <div class="left">
-        <h2>Kısa Kollu Polo Tişört</h2>
-        <p><strong>Fiyat:</strong> ₺249,00</p>
-        <p><strong>Açıklama:</strong> Günlük kullanım için hafif ve konforlu pamuklu tişört.</p>
-        <p><strong>Bedenler:</strong> S, M, L, XL</p>
-        <p><strong>Renkler:</strong></p>
-        <div class="colors">
-          <div class="color" style="background:#fff" title="Beyaz"></div>
-          <div class="color" style="background:#000" title="Siyah"></div>
-          <div class="color" style="background:#1a4d91" title="Lacivert"></div>
-          <div class="color" style="background:#b4b4b4" title="Gri"></div>
-          <div class="color" style="background:#be3144" title="Kırmızı"></div>
-        </div>
-        <div class="actions">
-          <a href="mailto:satis@seninsiten.com?subject=Tişört Satın Alma Talebi&body=Merhaba, tişört ile ilgileniyorum." target="_blank">Satın Al / İletişim</a>
-          <a class="share" href="https://wa.me/?text=Harika%20bir%20tişört%20keşfettim!%20İncele:%20https://seninsiten.com/urunadi.html" target="_blank">Paylaş</a>
-        </div>
-      </div>
-
-      <div class="right gallery">
-        <img src="https://i.ibb.co/xtZLQrJn/r-n-g-rseli-1.png" alt="Ürün Görseli 1" />
-        <img src="https://i.ibb.co/0jbZ6bb4/r-n-g-rseli-2.png" alt="Ürün Görseli 2" />
-      </div>
+    <div class="right gallery">
+      <img src="https://i.ibb.co/xtZLQrJn/r-n-g-rseli-1.png" alt="Ürün Görseli 1" />
+      <img src="https://i.ibb.co/0jbZ6bb4/r-n-g-rseli-2.png" alt="Ürün Görseli 2" />
     </div>
   </div>
+
+</div>
 
 </body>
 </html>
